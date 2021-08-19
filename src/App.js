@@ -3,6 +3,7 @@ import { Switch,Route } from 'react-router-dom';
 import HomePage from './pages/homepage/HomePage';
 import ShopPage from './pages/shop/ShopPage';
 import Header from './components/header/Header';
+import SignInSignUp from './pages/signIn-signUp/SignInSignUp';
 import React from 'react'
 
 
@@ -15,6 +16,7 @@ function App() {
     <Switch>
     <Route exact path='/' component={HomePage}/>
     <Route path='/shop' component={ShopPage}/>
+    <Route path='/sign' component={SignInSignUp}/>
     
     </Switch>
     
